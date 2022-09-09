@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220909T210650Z
+UID:1662757547676-23064@ical.marudot.com
+DTSTART;TZID=Asia/Calcutta:20221110T183000
+DTEND;TZID=Asia/Calcutta:20221111T103000
+SUMMARY:Kaushik and Ishwarya Wedding
+URL:https://www.google.com/maps/place//data=!4m2!3m1!1s0x3a5260dd6af6f1d1:0xdc190251686eaca4?source=g.page.share
+LOCATION:Ruckmani Ramjee Convention Halls\, 1/371\, Mugalivakkam Main Rd\, Kamakshi Nagar\, Mugalivakkam\, Chennai\, Tamil Nadu 600125\, India
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kaushik and Ishwarya Wedding
+TRIGGER:-P1W
+END:VALARM
+END:VEVENT
+END:VCALENDAR
